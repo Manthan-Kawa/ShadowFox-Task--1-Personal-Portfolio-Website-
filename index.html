@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initaila scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio</title>
+    <script src="https://kit.fontawesome.com/5c9733a6aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <a href="#about"><img src="images/Logo.png" class="logo"></a> 
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hi, I'm <span><a href="#about">Manthan Kawa</a></span><br> From Mumbai</h1>
+            <a href="#contact"><div class="button">Lets Talk</div> </a>
+
+        </div>
+    </div>
+</div>
+<!--------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <a href="#header" ><img src="images/user.jpg"></a>
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle"><a href="#about">About Me</h1></a>
+                <p class="para">I am a student from SVKM's Shri Bhagubhai Mafatial Polytechnic currently pursuing Computer Science and Engineering, Second year diploma. Passionately pursuing opportunities to apply academic knowledge and practical skills in a professional setting. With a strong foundation in programming languages and a keen interest in emerging technologies</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('grades')">Grades</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <a href="#services">
+                        <li><span>Web Developer</span><br>Web Application Development</li>
+                        <li><span>Graphic Designer</span><br>Graphics Designing</li>
+                        <li><span>App Developer</span><br>App Designing</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <a href="https://sbmp.ac.in/Events/M__32"><li><span>2022</span><br>Participated In Enigma 2022</li></a>
+                        <a href="https://www.linkedin.com/company/mesh-digital-services/"><li><span>2023</span><br>Virtual Intern , MeSh Digital Services - Web Development</li></a>
+                        <a href="https://www.linkedin.com/company/shadowfox1/"><li><span>2025</span><br>Virtual Intern , ShadowFox - Web Development</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <a href="https://sjsorlem.com/"><li><span>2022</span><br>SSC From St.Joseph's High School , Mumbai</li></a>
+                        <a href="https://sbmp.ac.in/"><li><span>2024</span><br>Currently Pursuing 3rd Year At Shri Bhagubhai Mafatlal Polytechnic Of Diploma College , Mumbai</li></a>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="grades">
+                    <ul>
+                        <a><li><span>SSC</span><br>Percentage - 84.80%</li></a>
+                        <a><li><span>1st Year Diploma Engineering</span><br>1st Semester - 74.93%<br>2nd Semester - 61.06%</li></a>
+                        <a><li><span>2nd Year Diploma Engineering</span><br>3rd Semester - 63.76%<br>4th Semester - </li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><a href="#services">My Services</a></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>We Make Wesite As Per Clients Need. Till Now We can Make High-Level Websites for CLients</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphics Designer</h2>
+                <p>Graphics Designing Includes Creating and Editing Video clips or Images</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Designer</h2>
+                <p>We Make App As Per Clients Need. Till Now We can Make Intermidiate Apps for CLients</p>
+                <a href="#contact"><button class="Learn">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------Portfolio----------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title"><a href="#portfolio">My Projects</h1></a>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/Website.jpg">
+            <div class="layer">
+                <h3>Tours and Travel Website</h3>
+                <p>You Can Easily Buy Your Favourite Products And Buy Then With One Click</p>
+                <a href="https://github.com/Manthan-Kawa/Tours-and-Travel-Website"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Thubmnail.png">
+            <div class="layer">
+                <h3>YT Thumnails</h3>
+                <p>You Can Choose Any Of The Thumbnails For Your Work. Feel Free To Use </p>
+                <a href="https://drive.google.com/drive/folders/1mEBiILgSfVXsdYloq7Z6jWGyAtXm13Z-?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Wallpaper App.png">
+            <div class="layer">
+                <h3>Wallpaper Application</h3>
+                <p>The App Provides You Live and Fantastic Wallpaper For Your Device</p>
+                <a href="https://github.com/Manthan-Kawa"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#contact" class="btn">See More</a>
+</div>
+</div>
+<!-----------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><a href="#contact">Contact Me</a></h1>
+                <p><a href="mailto:your.manthankawa06@gmai.com"><i class="fa-solid fa-paper-plane"></a></i><a href="mailto:your.manthankawa06@gmai.com"><span>Manthankawa06@gmail.com</span></a></p>
+                <p><a href="tel:+918422078169"><i class="fa-solid fa-phone"></a></i><a href="tel:+918422078169"><span>8422078169</span></a></p>
+                <div class="social-icons">
+                    <a href="https://x.com/ManthanKawa"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/Manthan_kawa/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/manthan-kawa/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Manthan-Kawa"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/My Cv.pdf" download class="btn btn2">Download My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="myForm">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" onclick="showAlert()" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Manthan Kawa. All Rights Reserved</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ4i_L0LReRuLrAsLz0slBmOpDZ-1TCsUkQvVi7stDGLXxSIAefk3mA7pgpIertYME/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>    
+document.getElementById('myForm').addEventListener('submit', function(event) {
+            // Check if the form is valid
+            if (this.checkValidity()) {
+                event.preventDefault();  // Prevent form submission
+                alert('Message Sent Successfully. Please Wait For Our Side To Respond 😊🫶🏻❤️');  // Show alert box
+            } else {
+                // Optional: This part is not necessary as the browser will handle invalid form submission,
+                // but you can handle it if you need to customize the behavior.
+                event.preventDefault();
+                alert('Please fill in all required fields.');
+            }
+            form.reset()
+        });
+</script>
+</body>
+</html>
